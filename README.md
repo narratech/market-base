@@ -10,11 +10,14 @@ Nombre Alumno 2 (@usuario_github)
 
 Este repositorio contiene el punto de partida para la práctica [Estudio del Mercado de Steam](https://narratech.com/es/aprendizaje-automatico-y-mineria-de-datos/mineria-de-datos/estudio-del-mercado-de-steam/) de la asignatura Aprendizaje Automático y Minería de Datos. 
 
-Para replicar el entorno de ejecución (con numpy, pandas, matplotlib, etc.) se puede usar Conda 26.7.2 y el fichero *environment.yml* de este repositorio:
+## Instalación y uso
+Para replicar el entorno de ejecución Python (con las versiones correctas de NumPy, Pandas, Matplotlib, Seaborne, etc.) se recomienda usar Conda 26.7.2 o superior junto al fichero de configuración proporcionado en este repositorio llamado *environment.yml*. Las instrucciones para crear el entorno correspondiente son estas:
+
 ```
 conda env create -f environment.yml
 conda activate aam 
 ```
+Además si se utiliza Visual Studio Code se recomienda hacerlo con las extensiones mencionadas en *.vscode/extensions.json*.
 
 ## Objetivo de la práctica
 Trabajar sobre un conjunto de datos que representa el catálogo de videojuegos en la tienda Steam (Steam Games Dataset, descargado de Kaggle el 17 de septiembre de 2026), recorriendo las etapas de adquisición, limpieza, transformación, visualización y extracción de conocimiento para la toma de decisiones en el sector del videojuego.
