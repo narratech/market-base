@@ -41,12 +41,6 @@ market-base/
 
 Los archivos dentro de data/raw/ (como games.csv) y data/processed no se almacenan en el control de versiones debido a su tamaño. El propio cuaderno interactivo se encarga de descargarlos e importarlos automáticamente desde la Release oficial de este mismo repositorio.
 
-## Requisitos e instalación
-
-Para ejecutar y reproducir el análisis en un entorno local (como **Visual Studio Code** con la extensión de Python y Jupyter), se requieren las siguientes dependencias de Python (3.9+):
-
-Asegúrate de tener instalados los paquetes principales ejecutando en tu entorno virtual o Anaconda Prompt:
-
 ## Bloques del estudio
 
 A. Descarga automatizada del dataset desde la Release oficial del repositorio a data/raw/ y verificación de la estructura de datos sin desfasajes de cabecera.
